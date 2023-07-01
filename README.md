@@ -15,7 +15,7 @@ o Diagram sheet: Entity relationship diagram of the 3 tables involved: Vehicles,
 o Dataset Revision History sheet: Can be ignored
       nypd-motor-vehicle-collisions.csv-428 MB
 o This data corresponds to the MV-Collisions - Crash table
-o This table has 29 columns and contains the data that we will be working with be working with               
+o This table has 29 columns and contains the data that we will be working with the tables              
 
 Problem Statement:
 a) Data Cleansing:
@@ -26,6 +26,7 @@ a) Data Cleansing:
         3. Create a csv file with unique values for Latitude and Longitude (do not include the decimals) and corresponding Borough and Zip codes. Use this table to populate original     
             dataset with the missing Borough and Zip codes. Provide final count of rows with values still missing Borough and Zip codes and the count of rows where this data was added /                corrected. The rows with missing Latitude and Longitude should be ignored. The cleaned CSV file should not have any missing values for Borough, Zip Code, Latitude and         
             Longitude.
+            
 b) Data Insights using Spark:
     Read the corrected CSV data into Spark DataFrames and using the relevant transformations and actions generate CSV and Parquet files for the following insights:
     1.  Top 5 days that recorded the maximum accidents and the Boroughs where this accident occurred, and the vehicle type (Code 1) involved in these accidents

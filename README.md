@@ -20,6 +20,7 @@ o This data corresponds to the MV-Collisions - Crash table
 o This table has 29 columns and contains the data that we will be working with the tables 
 
 Problem Statement:
+
 a) Data Cleansing:
     Data for some columns like Borough and Zip Code are missing. Re-create this missing data using columns Latitude and Longitude.
     Sub Tasks:

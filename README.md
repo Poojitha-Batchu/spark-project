@@ -1,11 +1,14 @@
 # spark-project
 
 URL: https://www.kaggle.com/datasets/new-york-city/nypd-motor-vehicle-collisions
+
 • Understanding the dataset:
 There are 2 relevant dataset files are files:
+
 • MVCollisionsData Dictionary_20190813_ERD.xlsx - 98 KB
       -  This Excel file consists of 4 sheets - Database Info, Column Info, Diagram & Dataset Revision History
-      -  Database Info sheet: Lists the 3 tables, namely,
+      -  Database Info sheet: Lists the 3 tables
+      
 • MV-Collisions - Crash: contains details on the Motor Vehicle Collisions crash event. Data for only this table is available.
   MV-Collisions - Vehicle: contains details on each vehicle involved in the crash. Nodata available
   MV-Collisions - Person: contains details for people involved in the crash. No data available.
@@ -15,7 +18,7 @@ o Diagram sheet: Entity relationship diagram of the 3 tables involved: Vehicles,
 o Dataset Revision History sheet: Can be ignored
       nypd-motor-vehicle-collisions.csv-428 MB
 o This data corresponds to the MV-Collisions - Crash table
-o This table has 29 columns and contains the data that we will be working with the tables              
+o This table has 29 columns and contains the data that we will be working with the tables 
 
 Problem Statement:
 a) Data Cleansing:

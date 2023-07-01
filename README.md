@@ -2,12 +2,11 @@
 
 URL: https://www.kaggle.com/datasets/new-york-city/nypd-motor-vehicle-collisions
 
-• Understanding the dataset:
-There are 2 relevant dataset files are files:
+• Understanding the dataset:  There are 2 relevant dataset files are files
 
-• MVCollisionsData Dictionary_20190813_ERD.xlsx - 98 KB
-      -  This Excel file consists of 4 sheets - Database Info, Column Info, Diagram & Dataset Revision History
-      -  Database Info sheet: Lists the 3 tables
+• MVCollisionsData Dictionary_20190813_ERD.xlsx - 98 KB. 
+      -      This Excel file consists of 4 sheets - Database Info, Column Info, Diagram & Dataset Revision History
+      -      Database Info sheet: Lists the 3 tables
       
 • MV-Collisions - Crash: contains details on the Motor Vehicle Collisions crash event. Data for only this table is available.
   MV-Collisions - Vehicle: contains details on each vehicle involved in the crash. Nodata available
